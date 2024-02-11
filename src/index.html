@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html>
 
-<head lang='zh'>
+<head lang='en'>
 	<meta charset='utf-8'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="renderer" content="webkit" />
 	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0" />
-	<title>Luckysheet</title>
+	<title>Spreadsheet &middot; xOS</title>
+	<!-- Keywords-->
+	<meta name="keywords" content="spreadsheet, create spreadsheet, xOS, xOS Spreadsheet" />
+
+	<!-- Title -->
+	<meta name="title" content="Notepad" />
+	<meta property="og:title" content="Spreadsheet" />
+	<meta property="twitter:title" content="Spreadsheet" />
+
+	<!-- Description -->
+	<meta name="description"
+		content="Spreadsheet is an online spreadsheet like excel that is powerful, simple to configure, and completely open source." />
+	<meta property="og:description"
+		content="Spreadsheet is an online spreadsheet like excel that is powerful, simple to configure, and completely open source." />
+	<meta property="twitter:description"
+		content="Spreadsheet is an online spreadsheet like excel that is powerful, simple to configure, and completely open source." />
+
+	<!-- Image -->
+
+	<meta property="og:image" content="https://spreadsheet.xos.dev/assets/meta.jpg" />
+	<meta property="twitter:image" content="https://spreadsheet.xos.dev/assets/meta.jpg" />
+
+	<!-- Image alt -->
+	<meta property="og:image:alt" content="Website Social Image" />
+	<meta property="twitter:image:alt" content="Website Social Image" />
+
+	<meta property="og:url" content="https://spreadsheet.xos.dev" />
+
+	<!-- Card-->
+	<meta property="og:type" content="article" />
+	<meta property="twitter:card" content="summary_large_image" />
+
+	<link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
 
 	<link rel='stylesheet' href='./plugins/css/pluginsCss.css' />
 	<link rel='stylesheet' href='./plugins/plugins.css' />
@@ -183,7 +215,7 @@
 							// console.info(range)
 						},
 						workbookCreateAfter: function (json) {
-							console.info('workbook create after!!!!====',json)
+							console.info('workbook create after!!!!====', json)
 						},
 						rangePasteBefore: function (range, data) {
 							// console.info('rangePasteBefore',range,data)
