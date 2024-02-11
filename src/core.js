@@ -53,7 +53,7 @@ luckysheet = common_extend(api, luckysheet);
 luckysheet.create = function (setting) {
   method.destroy();
   // Store original parameters for api: toJson
-  const storage = localStorage.getItem("xOS_Sheets");
+  const storage = localStorage.getItem("xOS_Spreadsheet");
   if (storage) {
     setting.data = JSON.parse(storage || "[]");
   }
