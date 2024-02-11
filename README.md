@@ -306,4 +306,8 @@ Funds donated via Patreon go directly to support mengshukeji's work on Luckyshee
 ## License
 [MIT](http://opensource.org/licenses/MIT)
 
+### Credits
+
+[Logo](https://www.flaticon.com/free-icon/spreadsheet_1977305)
+
 Copyright (c) 2020-present, mengshukeji
