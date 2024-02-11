@@ -308,6 +308,6 @@ Funds donated via Patreon go directly to support mengshukeji's work on Luckyshee
 
 ### Credits
 
-[Logo](https://www.flaticon.com/free-icon/spreadsheet_1977305)
+[Logo](https://www.flaticon.com/free-icon/spreadsheet-app_3800040)
 
 Copyright (c) 2020-present, mengshukeji
