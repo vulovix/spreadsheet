@@ -29,6 +29,10 @@ const initListener = function(){
             method.createHookFunction('updated',val)
         }
         undoAccessible(Store.jfredo.length);
+        localStorage.setItem(
+        "xOS_Sheets",
+        JSON.stringify(window.luckysheet.getluckysheetfile())
+        );
     } );
     createProxy(Store, 'jfundo',(target, property, val, receiver)=>{
         redoAccessible(Store.jfundo.length);
